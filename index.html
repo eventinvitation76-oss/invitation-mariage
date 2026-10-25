@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="fr" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mariage de Celia & Sofiane — 20 Novembre 2026</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Amiri:ital,wght@0,400;0,700;1,400&family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'tea-green': '#ccd5ae',
+                        'beige-soft': '#e9edc9',
+                        'cornsilk': '#fefae0',
+                        'papaya-whip': '#faedcd',
+                        'light-bronze': '#d4a373',
+                        'bronze-dark': '#bc8a5f',
+                        'slate-dark': '#2b2d42',
+                    },
+                    fontFamily: {
+                        serif: ['Cormorant Garamond', 'serif'],
+                        sans: ['Montserrat', 'sans-serif'],
+                        script: ['Alex Brush', 'cursive'],
+                        arabic: ['Amiri', 'serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        body {
+            background-color: #fefae0;
+            color: #2b2d42;
+            font-family: 'Montserrat', sans-serif;
+            overflow-x: hidden;
+        }
+
+        /* Gold Dust & Sparkle Effect */
+        .sparkle-ring {
+            position: relative;
+            width: 220px;
+            height: 220px;
+            border-radius: 50%;
+            border: 2px dashed #d4a373;
+            animation: rotateRing 25s linear infinite;
+        }
+
+        @keyframes rotateRing {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+
+        /* Gold Heart Draw Effect */
+        .heart-svg path {
+            stroke-dasharray: 200;
+            stroke-dashoffset: 200;
+            animation: drawHeart 3s ease-in-out infinite alternate;
+        }
+
+        @keyframes drawHeart {
+            0% { stroke-dashoffset: 200; }
+            100% { stroke-dashoffset: 0; }
+        }
+    </style>
+</head>
+<body class="antialiased text-slate-dark bg-cornsilk">
+
+    
+
+    <!-- MAIN CONTAINER -->
+    <div class="max-w-3xl mx-auto min-h-screen shadow-2xl bg-[#fffef7] relative overflow-hidden my-0 sm:my-6 sm:rounded-3xl border border-light-bronze/20">
+
+        <!-- HEADER / HERO SECTION -->
+        <header class="relative px-6 pt-12 pb-16 text-center bg-gradient-to-b from-cornsilk to-papaya-whip/30 border-b border-light-bronze/10">
+            
+            <!-- Floral Frame Illustrations Top -->
+            <div class="absolute top-0 left-0 w-32 h-32 opacity-30 pointer-events-none">
+                <svg viewBox="0 0 100 100" fill="none" stroke="#ccd5ae" stroke-width="1.5">
+                    <path d="M0,0 Q50,0 50,50 Q0,50 0,0 Z"/>
+                    <path d="M10,0 Q60,10 40,60 Q0,40 10,0 Z"/>
+                </svg>
+            </div>
+            <div class="absolute top-0 right-0 w-32 h-32 opacity-30 pointer-events-none transform scale-x-[-1]">
+                <svg viewBox="0 0 100 100" fill="none" stroke="#ccd5ae" stroke-width="1.5">
+                    <path d="M0,0 Q50,0 50,50 Q0,50 0,0 Z"/>
+                    <path d="M10,0 Q60,10 40,60 Q0,40 10,0 Z"/>
+                </svg>
+            </div>
+
+            <!-- Bismillah Calligraphy -->
+            <div class="my-4">
+                <p class="font-arabic text-2xl sm:text-3xl text-light-bronze tracking-wide leading-relaxed select-none">
+                    بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ
+                </p>
+            </div>
+
+            <!-- Quranic Verse -->
+            <div class="max-w-xl mx-auto my-6 px-4 py-4 rounded-2xl bg-white/70 backdrop-blur-sm border border-light-bronze/20 shadow-sm">
+                <p class="font-arabic text-lg sm:text-xl text-slate-dark leading-loose dir-rtl mb-2">
+                    "وَمِنْ آيَاتِهِ أَنْ خَلَقَ لَكُم مِّنْ أَنفُسِكُمْ أَزْوَاجًا لِّتَسْكُنُوا إِلَيْهَا وَجَعَلَ بَيْنَكُم مَّوَدَّةً وَرَحْمَةً"
+                </p>
+                <p class="font-serif italic text-xs sm:text-sm text-slate-dark/80">
+                    « Et parmi Ses signes Il a créé de vous, pour vous, des épouses afin que vous trouviez auprès d'elles le repos, et Il a établi entre vous de l'affection et de la bonté. »
+                </p>
+                <span class="block text-[10px] text-light-bronze font-sans uppercase tracking-widest mt-1.5">— Sourate Ar-Rum (30:21)</span>
+            </div>
+
+            <!-- Animated Logo Seal Ring -->
+            <div class="flex justify-center items-center my-8">
+                <div class="relative flex justify-center items-center">
+                    <div class="sparkle-ring border-dashed border-light-bronze flex justify-center items-center"></div>
+                    <div class="absolute inset-0 flex flex-col justify-center items-center text-center p-4">
+                        <i class="fas fa-ring text-light-bronze text-xl mb-1"></i>
+                        <h2 class="font-script text-3xl text-tea-green font-bold">Celia & Sofiane</h2>
+                        <span class="text-[11px] font-sans tracking-widest text-light-bronze uppercase mt-1">20.11.2026</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bride & Groom Main Titles -->
+            <div class="mt-6">
+                <span class="text-xs font-sans uppercase tracking-[0.3em] text-light-bronze block mb-2">Ont le bonheur de vous inviter à célébrer leur union</span>
+                <h1 class="font-serif text-5xl sm:text-6xl text-light-bronze font-normal tracking-wide">
+                    Celia <span class="font-script text-tea-green text-4xl sm:text-5xl">&</span> Sofiane
+                </h1>
+            </div>
+
+            <!-- Warm Welcoming Words -->
+            <div class="max-w-lg mx-auto mt-8 px-4 text-center">
+                <p class="font-serif text-lg sm:text-xl text-slate-dark italic leading-relaxed">
+                    « C'est avec une immense joie et le cœur rempli d'amour que nous vous convions à partager ce jour si précieux. Votre présence à nos côtés illuminera notre plus beau souvenir. »
+                </p>
+            </div>
+
+            <div class="mt-8 flex justify-center gap-4">
+                <a href="#lieu" class="bg-light-bronze hover:bg-bronze-dark text-white font-medium text-sm px-7 py-3 rounded-full shadow-md transition-all transform hover:-translate-y-0.5 inline-flex items-center gap-2">
+                    <i class="fas fa-map-marker-alt"></i> Lieu & Accès
+                </a>
+                <a href="#date" class="bg-tea-green/40 hover:bg-tea-green/60 text-slate-dark font-medium text-sm px-6 py-3 rounded-full transition-all inline-flex items-center gap-2">
+                    <i class="far fa-calendar-alt"></i> La Date
+                </a>
+            </div>
+        </header>
+
+        <!-- WELCOME & MESSAGE SECTION -->
+        <section class="py-10 px-6 sm:px-12 bg-white text-center border-b border-light-bronze/10">
+            <div class="max-w-md mx-auto space-y-3">
+                <span class="text-xs uppercase tracking-widest text-light-bronze font-sans block">Bienvenue à nos familles & amis</span>
+                <h2 class="font-serif text-2xl sm:text-3xl text-slate-dark">Deux Cœurs, Une Seule Destinée</h2>
+                <p class="text-xs sm:text-sm text-slate-dark/70 font-sans leading-relaxed pt-2">
+                    Nous serions honorés de vous compter parmi nos invités pour célébrer le commencement de cette nouvelle étape de notre vie. Venez partager avec nous des moments de bonheur, de rires et de fraternité.
+                </p>
+            </div>
+        </section>
+
+        <!-- COUNTDOWN TIMER SECTION -->
+        <section class="py-10 px-6 bg-tea-green/15 text-center border-b border-light-bronze/10">
+            <h3 class="font-serif text-2xl text-slate-dark mb-6 tracking-wide">Compte à Rebours vers le Grand Jour</h3>
+            <div class="grid grid-cols-4 gap-2 sm:gap-4 max-w-md mx-auto">
+                <div class="bg-white p-3 sm:p-4 rounded-2xl shadow-sm border border-light-bronze/10">
+                    <span id="cd-days" class="font-serif text-2xl sm:text-3xl font-bold text-light-bronze block">00</span>
+                    <span class="text-[10px] sm:text-xs text-slate-dark/70 font-sans uppercase tracking-wider">Jours</span>
+                </div>
+                <div class="bg-white p-3 sm:p-4 rounded-2xl shadow-sm border border-light-bronze/10">
+                    <span id="cd-hours" class="font-serif text-2xl sm:text-3xl font-bold text-light-bronze block">00</span>
+                    <span class="text-[10px] sm:text-xs text-slate-dark/70 font-sans uppercase tracking-wider">Heures</span>
+                </div>
+                <div class="bg-white p-3 sm:p-4 rounded-2xl shadow-sm border border-light-bronze/10">
+                    <span id="cd-minutes" class="font-serif text-2xl sm:text-3xl font-bold text-light-bronze block">00</span>
+                    <span class="text-[10px] sm:text-xs text-slate-dark/70 font-sans uppercase tracking-wider">Min</span>
+                </div>
+                <div class="bg-white p-3 sm:p-4 rounded-2xl shadow-sm border border-light-bronze/10">
+                    <span id="cd-seconds" class="font-serif text-2xl sm:text-3xl font-bold text-light-bronze block">00</span>
+                    <span class="text-[10px] sm:text-xs text-slate-dark/70 font-sans uppercase tracking-wider">Sec</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- CALENDAR SECTION (November 2026 Exact Alignment) -->
+        <section id="date" class="py-12 px-4 sm:px-8 bg-cornsilk/50 border-b border-light-bronze/10">
+            <div class="text-center mb-8">
+                <span class="text-xs uppercase tracking-widest text-light-bronze font-sans block mb-1">Date de la célébration</span>
+                <h2 class="font-serif text-3xl text-slate-dark">Novembre 2026</h2>
+            </div>
+
+            <!-- Calendar Box -->
+            <div class="max-w-lg mx-auto bg-[#faf8ed] rounded-2xl p-4 sm:p-6 shadow-sm border border-light-bronze/30">
+                <!-- Calendar Header -->
+                <div class="flex justify-between items-baseline mb-4 pb-2 border-b border-light-bronze/20">
+                    <span class="font-serif text-4xl sm:text-5xl text-light-bronze font-light">Nov.</span>
+                    <span class="font-serif text-2xl text-light-bronze/80">2026</span>
+                </div>
+
+                <!-- Days of Week Header -->
+                <div class="grid grid-cols-7 text-center text-xs font-serif text-light-bronze mb-3 font-medium">
+                    <div>lundi</div>
+                    <div>mardi</div>
+                    <div>mercredi</div>
+                    <div>jeudi</div>
+                    <div>vendredi</div>
+                    <div>samedi</div>
+                    <div>dimanche</div>
+                </div>
+
+                <!-- Calendar Grid (November 1st 2026 is a Sunday) -->
+                <div class="grid grid-cols-7 gap-1 text-center font-serif text-sm text-slate-dark">
+                    <!-- Week 1: Empty days M-Sa, Nov 1 is Sunday -->
+                    <div class="py-2.5 text-slate-dark/20"></div>
+                    <div class="py-2.5 text-slate-dark/20"></div>
+                    <div class="py-2.5 text-slate-dark/20"></div>
+                    <div class="py-2.5 text-slate-dark/20"></div>
+                    <div class="py-2.5 text-slate-dark/20"></div>
+                    <div class="py-2.5 text-slate-dark/20"></div>
+                    <div class="py-2.5 bg-tea-green/20 rounded-md">1</div>
+
+                    <!-- Week 2 -->
+                    <div class="py-2.5">2</div>
+                    <div class="py-2.5">3</div>
+                    <div class="py-2.5">4</div>
+                    <div class="py-2.5">5</div>
+                    <div class="py-2.5">6</div>
+                    <div class="py-2.5 bg-tea-green/20 rounded-md">7</div>
+                    <div class="py-2.5 bg-tea-green/20 rounded-md">8</div>
+
+                    <!-- Week 3 -->
+                    <div class="py-2.5">9</div>
+                    <div class="py-2.5">10</div>
+                    <div class="py-2.5">11</div>
+                    <div class="py-2.5">12</div>
+                    <div class="py-2.5">13</div>
+                    <div class="py-2.5 bg-tea-green/20 rounded-md">14</div>
+                    <div class="py-2.5 bg-tea-green/20 rounded-md">15</div>
+
+                    <!-- Week 4 -->
+                    <div class="py-2.5">16</div>
+                    <div class="py-2.5">17</div>
+                    <div class="py-2.5">18</div>
+                    <div class="py-2.5">19</div>
+
+                    <!-- THE WEDDING DAY : NOV 20 2026 (Friday) -->
+                    <div class="relative py-2.5 bg-papaya-whip rounded-lg font-bold text-light-bronze flex items-center justify-center shadow-inner">
+                        <span class="relative z-10">20</span>
+                        <!-- Drawn Heart overlay -->
+                        <svg class="absolute inset-0 w-full h-full p-0.5 text-light-bronze heart-svg" viewBox="0 0 50 50" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M 25,18 C 20,8 8,15 15,28 L 25,38 L 35,28 C 42,15 30,8 25,18 Z"/>
+                            <path d="M 25,20 C 22,12 12,17 17,27 L 25,35 L 33,27 C 38,17 28,12 25,20 Z" opacity="0.6"/>
+                        </svg>
+                    </div>
+
+                    <div class="py-2.5 bg-tea-green/20 rounded-md">21</div>
+                    <div class="py-2.5 bg-tea-green/20 rounded-md">22</div>
+
+                    <!-- Week 5 -->
+                    <div class="py-2.5">23</div>
+                    <div class="py-2.5">24</div>
+                    <div class="py-2.5">25</div>
+                    <div class="py-2.5">26</div>
+                    <div class="py-2.5">27</div>
+                    <div class="py-2.5 bg-tea-green/20 rounded-md">28</div>
+                    <div class="py-2.5 bg-tea-green/20 rounded-md">29</div>
+
+                    <!-- Week 6 -->
+                    <div class="py-2.5">30</div>
+                    <div class="py-2.5 text-slate-dark/20"></div>
+                    <div class="py-2.5 text-slate-dark/20"></div>
+                    <div class="py-2.5 text-slate-dark/20"></div>
+                    <div class="py-2.5 text-slate-dark/20"></div>
+                    <div class="py-2.5 text-slate-dark/20"></div>
+                    <div class="py-2.5 text-slate-dark/20"></div>
+                </div>
+            </div>
+
+            <div class="text-center mt-4">
+                <p class="font-serif italic text-base text-light-bronze font-semibold">Vendredi 20 Novembre 2026 — Rendez-vous à partir de 16h00</p>
+            </div>
+        </section>
+
+        <!-- VENUE & LOCATION SECTION -->
+        <section id="lieu" class="py-14 px-6 sm:px-10 bg-white">
+            <div class="text-center mb-10">
+                <span class="text-xs uppercase tracking-widest text-light-bronze font-sans block mb-1">Lieu de Réception</span>
+                <h2 class="font-serif text-3xl text-slate-dark">Salle des Fêtes & Réception</h2>
+            </div>
+
+            <!-- Main Venue Card -->
+            <div class="max-w-lg mx-auto bg-gradient-to-b from-papaya-whip/40 to-cornsilk/60 rounded-3xl p-8 border border-light-bronze/30 text-center shadow-sm relative overflow-hidden">
+                <div class="w-16 h-16 mx-auto mb-4 rounded-full bg-white flex items-center justify-center text-light-bronze shadow-sm border border-light-bronze/20">
+                    <i class="fas fa-glass-cheers text-2xl"></i>
+                </div>
+
+                <h3 class="font-serif text-2xl font-bold text-slate-dark mb-1">Salle des Fêtes "Les Lys"</h3>
+                <p class="text-xs font-sans uppercase tracking-wider text-light-bronze font-medium mb-4">Espace & Salons de Réception</p>
+
+                <div class="space-y-2 text-xs sm:text-sm text-slate-dark/80 py-3 border-y border-light-bronze/20 my-4">
+                    <p><i class="fas fa-clock text-light-bronze mr-2"></i><strong>Accueil des invités :</strong> À partir de 16h00</p>
+                    <p><i class="fas fa-map-marker-alt text-light-bronze mr-2"></i><strong>Adresse :</strong> N° 12 Route Nationale, Chéraga, Alger</p>
+                </div>
+
+                <!-- Prominent Google Maps Direct Button -->
+                <div class="pt-2">
+                    <a href="https://maps.google.com/?q=Salle+des+fetes+Les+Lys+Cheraga+Alger" target="_blank" class="inline-flex items-center justify-center gap-3 bg-light-bronze hover:bg-bronze-dark text-white font-medium text-sm px-8 py-3.5 rounded-full shadow-lg transition-all transform hover:-translate-y-0.5 w-full sm:w-auto">
+                        <i class="fas fa-location-arrow text-base"></i> Ouvrir Localisation Google Maps
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- FOOTER -->
+        <footer class="py-10 text-center bg-gradient-to-b from-cornsilk to-papaya-whip/40 border-t border-light-bronze/10">
+            <h3 class="font-script text-4xl text-tea-green mb-2">Celia & Sofiane</h3>
+            <p class="text-xs sm:text-sm text-slate-dark/70 font-serif italic max-w-sm mx-auto px-4">
+                Nous avons hâte de célébrer cette journée inoubliable entourés de votre affection.
+            </p>
+        </footer>
+
+    </div>
+
+    <!-- JavaScript Logic -->
+    <script>
+        // COUNTDOWN TIMER LOGIC FOR 20 NOV 2026
+        const targetDate = new Date('November 20, 2026 16:00:00').getTime();
+
+        function updateCountdown() {
+            const now = new Date().getTime();
+            const difference = targetDate - now;
+
+            if (difference > 0) {
+                const days = Math.floor(difference / (1000 * 60 * 60 * 24));
+                const hours = Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                const minutes = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
+                const seconds = Math.floor((difference % (1000 * 60)) / 1000);
+
+                document.getElementById('cd-days').innerText = String(days).padStart(2, '0');
+                document.getElementById('cd-hours').innerText = String(hours).padStart(2, '0');
+                document.getElementById('cd-minutes').innerText = String(minutes).padStart(2, '0');
+                document.getElementById('cd-seconds').innerText = String(seconds).padStart(2, '0');
+            } else {
+                document.getElementById('cd-days').innerText = "00";
+                document.getElementById('cd-hours').innerText = "00";
+                document.getElementById('cd-minutes').innerText = "00";
+                document.getElementById('cd-seconds').innerText = "00";
+            }
+        }
+
+        setInterval(updateCountdown, 1000);
+        updateCountdown();
+
+        
+
+       
+    </script>
+</body>
+</html>
